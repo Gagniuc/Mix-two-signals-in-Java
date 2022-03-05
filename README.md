@@ -1,4 +1,4 @@
-# Mix-two-signals-in-Java
+# Mix two signals in Java
 
 This is an implementation designed in Java that is able to blend two signals in arbitrary proportions. This source code uses a novel mathematical model published in the journal [Chaos](https://aip.scitation.org/doi/10.1063/1.5120818). The model is called Spectral Forecast. The <i>Mix-two-signals</i> implementation is a demo that is able to mix two signals (<i>A</i> and <i>B</i>) in arbitrary proportions. Different cases can be seen, with two different waveform signals that are combined depending on a value <i>d</i>, called a distance. The value of <i>d</i> can be arbitrary chosen between zero and a value Max(<i>d</i>), which is defined as the maximum value found above the two vectors that represent these signals. In this specific case <i>d</i> = 33. The output is the <i>M</i> signal calculated from the two signals <i>A</i> and <i>B</i>, such as:
 
